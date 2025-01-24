@@ -13,7 +13,7 @@
     
 
     <!-- Bootstrap core CSS -->
-<link href="static/css/bootstrap.min.css" rel="stylesheet">
+<link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -40,7 +40,7 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="sidebars.css" rel="stylesheet">
+   <link href="{{ url_for('static', filename='css/sidebars.css') }}" rel="stylesheet">
 
   </head>
   <body>
@@ -108,7 +108,7 @@
   <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 280px;">
     <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
       <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-      <span class="fs-4">{{Название курса}}</span>
+      <span class="fs-4">Название курса</span>
     </a>
     <hr>
     <ul class="nav nav-pills flex-column mb-auto">
@@ -153,13 +153,13 @@
   </div>
   <div class="b-example-divider" style="width: 1px;"></div>
   <div class="center">
-        <iframe width="1020" height="585" src="https://rutube.ru/play/embed/29e03a8d00b994744b546a912777e911/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <iframe width="1440" height="820" src="https://rutube.ru/play/embed/29e03a8d00b994744b546a912777e911/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
   </div>
 </main>
 
 
-    <script src="static/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
 
-  <script src="sidebars.js"></script>
+      <script src="{{ url_for('static', filename='js/sidebars.js') }}"></script>
   </body>
 </html>
