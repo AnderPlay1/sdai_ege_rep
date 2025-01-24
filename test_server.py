@@ -1,5 +1,5 @@
 from flask import Flask, render_template, session, request, redirect
-import db_functions as db
+#import db_functions as db
 
 app = Flask(__name__)
 
@@ -43,6 +43,17 @@ def sign_in():
     else:
         return render_template('sign-in.html', error='Неверные данные!')
 
+@app.route('/video_lesson/', methods=['GET', 'POST'])
+def video_lesson():
+    return render_template('video-lesson.html')
+
+@app.route('/text_lesson/', methods=['GET', 'POST'])
+def text_lesson():
+    kwargs = dict()
+    with open("Samples_For_Courses/Theory_1.txt") as file:
+        data = file.read().replace('/n', "<br>")
+        print(data)
+    return render_template('text-lesson.html', **kwargs)
+
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=8080)
-

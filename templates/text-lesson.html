@@ -10,10 +10,10 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sidebars/">
 
-    
+
 
     <!-- Bootstrap core CSS -->
-<link href="static/css/bootstrap.min.css" rel="stylesheet">
+<link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -38,10 +38,9 @@
         }
     </style>
 
-    
-    <!-- Custom styles for this template -->
-    <link href="sidebars.css" rel="stylesheet">
 
+    <!-- Custom styles for this template -->
+    <link href="{{ url_for('static', filename='css/sidebars.css') }}" rel="stylesheet">
   </head>
   <body>
 
@@ -108,7 +107,7 @@
   <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 280px;">
     <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
       <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-      <span class="fs-4">{{Название курса}}</span>
+      <span class="fs-4">Название курса</span>
     </a>
     <hr>
     <ul class="nav nav-pills flex-column mb-auto">
@@ -116,13 +115,13 @@
       <b>1 Теория</b>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link active" aria-current="page">
+        <a style="color: white" href="#" class="nav-link">
           <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"/></svg>
           1.1 Видео-Урок
         </a>
       </li>
       <li>
-        <a href="#" class="nav-link text-white">
+        <a href="#" class="nav-link active" aria-current="page">
           <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"/></svg>
           1.2 Теория к задаче
         </a>
@@ -150,29 +149,59 @@
       </li>
     </ul>
     <hr>
-    <div class="dropdown">
-      <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-        <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
-        <strong>mdo</strong>
-      </a>
-      <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
-        <li><a class="dropdown-item" href="#">New project...</a></li>
-        <li><a class="dropdown-item" href="#">Settings</a></li>
-        <li><a class="dropdown-item" href="#">Profile</a></li>
-        <li><hr class="dropdown-divider"></li>
-        <li><a class="dropdown-item" href="#">Sign out</a></li>
-      </ul>
-    </div>
+
+
   </div>
+
   <div class="b-example-divider" style="width: 1px;"></div>
-  <div class="center">
-        <iframe  width="1440" height="810" src="https://rutube.ru/play/embed/29e03a8d00b994744b546a912777e911/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  <div>
+    <h2>Задание 1 Теория</h2>
+    <p>Вот как решаются задачи на симметричный граф:</p>
+    <pre>   <strong>1.Прочти задачу</strong>
+        Внимательно прочти условие и вопрос. Отметь, какие города важны в этой задаче.
+        Возможно, для решения пригодятся не все из них.</pre>
+    <pre>   <strong>2.Расставь количество дорог</strong>
+        Посчитай на схеме и запиши количество исходящих дорог из каждого города.
+        То же самое сделай со всеми строками таблицы. Любой символ (число, звездочка и т. д.) в ячейке таблицы — это дорога.</pre>
+    <pre>   <strong>3.Заметь симметрию</strong>
+        Выдели зеркальные пары — города, которые находятся на краю схемы и связаны с одним и тем же количеством городов.
+        Также определи ось симметрии, раздели схему пополам, и увидишь, что две половины одинаковы.</pre>
+    <pre>   <strong>4.Отметь уникальные вершины</strong>
+        Сопоставь города и пункты на схеме, если можешь определить их однозначно.
+        Если таких городов нет, переходи к пункту 5.</pre>
+    <pre>   <strong>5.Проанализируй полученную информацию и найди соответствия</strong>
+        Так как граф симметричный, некоторые города нельзя будет точно определить.Предположи их положение в таблице.
+        Постепенно установи соответствие городов в таблице пунктам на схеме.Опирайся на связи, отмечай, куда ведут дороги.
+        Работай с парами, находи аналогичное положение для симметричной части города.Это сэкономит драгоценное время.
+        Если определить город однозначно не получается, предположи наиболее подходящий вариант и попробуй решить задание.
+        В случае несостыковки сделай другое предположение.</pre>
+    <pre>   <strong>6.Ответь на вопрос задачи</strong>
+        Теперь, когда у тебя есть все данные, реши задачу.
+        Ещё раз внимательно прочти вопрос, выполни вычисления, если нужно, и введи ответ в поле для результатов.</pre>
+    <hr>
+    <p>Вот как решаются задачи на асимметричный граф:</p>
+    <pre>   <strong>1.Прочти задачу</strong>
+        Внимательно прочти условие и вопрос. Отметь, какие города важны в этой задаче.
+        Возможно, для решения пригодятся не все из них.</pre>
+    <pre>   <strong>2.Расставь количество дорог</strong>
+        Посчитай на схеме и запиши количество исходящих дорог из каждого города. То же самое сделай со всеми строками таблицы.
+        Любой символ (число, звездочка и т. д.) в ячейке таблицы — это дорога.</pre>
+    <pre>   <strong>3.Отметь уникальные вершины</strong>
+        Сопоставь города и пункты на схеме, если можешь определить их однозначно. Если таких городов нет, переходи к пункту 4.</pre>
+    <pre>   <strong>4.Проанализируй полученную информацию и найди соответствия</strong>
+        Удобнее всего находить уникальные случаи — например, город, который ведёт только в пункты с двумя дорогами.
+        Постепенно установи соответствие городов в таблице пунктам на схеме. Опирайся на связи, отмечай, куда ведут дороги.
+        Если определить город однозначно не получается, предположи наиболее подходящий вариант и попробуй решить задание.
+        В случае несостыковки сделай другое предположение.</pre>
+    <pre>   <strong>5.Ответь на вопрос задачи</strong>
+        Теперь, когда у тебя есть все данные, реши задачу.
+        Ещё раз внимательно прочти вопрос, выполни вычисления, если нужно, и введи ответ в поле для результатов.</pre>
   </div>
-</main>
+ </main>
 
 
-    <script src="static/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
 
-      <script src="sidebars.js"></script>
+      <script src="{{ url_for('static', filename='js/sidebars.js') }}"></script>
   </body>
 </html>
