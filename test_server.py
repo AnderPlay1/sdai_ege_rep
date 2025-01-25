@@ -51,14 +51,18 @@ def dashboard():
     # Месяцы как категории
     labels = [str(i) for i in range(1, 28)]
 
-    # Количество задач из 27, решённых ПРАВИЛЬНО для каждого месяца
+    # Количество ПРАВИЛЬНО решённых задач по кадому номеру
     correct = [i for i in range(10, 38)]
 
-    # Неправильные ответы считаются автоматически
-    total_tasks = 27
+    # Количество НЕПРАВИЛЬНО решённых задач по каждому номеру
     incorrect = [c for c in correct]
 
-    return render_template('dashboard.html', labels=labels, correct=correct, incorrect=incorrect)
+    return (render_template('dashboard.html', labels=labels, correct=correct, incorrect=incorrect))
+
+
+@app.route('/text-lesson/')
+def text_lesson():
+    return render_template('text-lesson.html')
 
 
 if __name__ == "__main__":
