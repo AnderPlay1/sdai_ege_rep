@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="50c4cd0d-9c97-4074-833a-26da31570de4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAIN_BD.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Samples_For_Courses/1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Samples_For_Courses/10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Samples_For_Courses/10_url.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Samples_For_Courses/12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Samples_For_Courses/12_url.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Samples_For_Courses/16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Samples_For_Courses/16_url.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Samples_For_Courses/18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Samples_For_Courses/18_url.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Samples_For_Courses/1_url.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Samples_For_Courses/2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Samples_For_Courses/23.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Samples_For_Courses/23_url.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Samples_For_Courses/2_url.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Samples_For_Courses/3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Samples_For_Courses/3_url.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Samples_For_Courses/4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Samples_For_Courses/4_url.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Samples_For_Courses/Test_Html(not 4 use).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Flaticon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Flaticon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Flaticon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Flaticon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph_functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth_sample.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell.nix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/camera.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/flaticon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/group.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/prettyPhoto.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/sidebars.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/sign-in.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/tasks.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/versions.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/zadanie.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/kegeh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/dark_rounded/btnNext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/dark_rounded/btnPrevious.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/dark_rounded/contentPattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/dark_rounded/default_thumbnail.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/dark_rounded/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/dark_rounded/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/dark_square/btnNext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/dark_square/btnPrevious.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/dark_square/contentPattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/dark_square/default_thumbnail.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/dark_square/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/dark_square/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/default/default_thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/default/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/default/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/default/sprite_next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/default/sprite_prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/default/sprite_x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/default/sprite_y.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/facebook/btnNext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/facebook/btnPrevious.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/facebook/contentPatternBottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/facebook/contentPatternLeft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/facebook/contentPatternRight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/facebook/contentPatternTop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/facebook/default_thumbnail.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/facebook/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/facebook/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/light_rounded/btnNext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/light_rounded/btnPrevious.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/light_rounded/default_thumbnail.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/light_rounded/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/light_rounded/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/light_square/btnNext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/light_square/btnPrevious.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/light_square/default_thumbnail.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/light_square/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prettyPhoto/light_square/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/voytenko.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/add_task.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/animate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/contact_me.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/group.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/headline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/hoverdir.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/images-loded.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/isotope.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jqBootstrapValidation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery.easing.1.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery.prettyPhoto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery.vide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/modernizr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/owl.carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/parallaxie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/portfolio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/retina.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/scroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/sidebars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_runner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/add-task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/courses.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/group.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/oauth.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sign-in.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sign-up.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/task-lesson.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/task_page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/test_task_page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/text-lesson.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/variant.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/video-lesson.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variant.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="testFront" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AnderPlay1"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AnderPlay1/sdai_ege_rep.git",
+    "accountId": "07989877-1d5e-46c3-b94f-b885808571d4"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2sUesjxO3oQIJHoiE137KIA3oeu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.app.executor": "Run",
+    "Python.database.executor": "Run",
+    "Python.run.executor": "Run",
+    "Python.variant.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "test__forum",
+    "ignore.virus.scanning.warn.message": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Александр\PycharmProjects\sdai_ege_rep\app" />
+      <recent name="C:\Users\Александр\PycharmProjects\sdai_ege_rep" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="variant" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="sdai_ege_rep" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.11 (sdai_ege_rep)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/variant.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-a5bc9544c897-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.23654.177" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50c4cd0d-9c97-4074-833a-26da31570de4" name="Changes" comment="" />
+      <created>1738514789629</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738514789629</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
