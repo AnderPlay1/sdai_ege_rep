@@ -1,14 +1,14 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h1>Последние посты</h1>
-    {% for post in posts %}
-        <div class="post">
-            <h2><a href="{{ url_for('post_detail', post_id=post.id) }}">{{ post.title }}</a></h2>
-            <p>{{ post.content }}</p>
-            <p>Автор: {{ post.author.first_name }} {{ post.author.last_name }}</p>
-            <p>Дата: {{ post.created_at.strftime('%Y-%m-%d %H:%M') }}</p>
-            <p>Лайков: {{ post.likes }}</p>
-        </div>
-    {% endfor %}
+    <h1>Темы форума</h1>
+    <div class="topics-list">
+        {% for topic in topics %}
+            <div class="topic-card">
+                <h2><a href="{{ url_for('topic', topic_id=topic.id) }}">{{ topic.title }}</a></h2>
+                <p>{{ topic.content }}</p>
+                <small>ID темы: {{ topic.id }}</small>
+            </div>
+        {% endfor %}
+    </div>
 {% endblock %}

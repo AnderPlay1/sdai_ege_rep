@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>{{ topic.title }}</h1>
+    <p>{{ topic.content }}</p>
+    <h2>Комментарии</h2>
+    <div class="comments-list">
+        {% for comment in comments %}
+            <div class="comment-card">
+                <p>{{ comment.content }}</p>
+                <small>ID комментария: {{ comment.id }} | Отправитель: Пользователь #{{ comment.user_id }}</small>
+            </div>
+        {% endfor %}
+    </div>
+    <form method="POST">
+        <textarea name="comment" placeholder="Ваш комментарий"></textarea>
+        <button type="submit">Отправить</button>
+    </form>
+{% endblock %}

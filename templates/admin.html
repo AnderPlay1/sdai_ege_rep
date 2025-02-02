@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Админская панель</h1>
+    <h2>Темы</h2>
+    <div class="topics-list">
+        {% for topic in topics %}
+            <div class="topic-card">
+                <h3>{{ topic.title }}</h3>
+                <p>{{ topic.content }}</p>
+                <small>ID темы: {{ topic.id }}</small>
+                <a href="{{ url_for('delete_topic', topic_id=topic.id) }}">Удалить</a>
+            </div>
+        {% endfor %}
+    </div>
+    <h2>Комментарии</h2>
+    <div class="comments-list">
+        {% for comment in comments %}
+            <div class="comment-card">
+                <p>{{ comment.content }}</p>
+                <small>ID комментария: {{ comment.id }} | Отправитель: Пользователь #{{ comment.user_id }}</small>
+                <a href="{{ url_for('delete_comment', comment_id=comment.id) }}">Удалить</a>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
